@@ -1,0 +1,192 @@
+/* ================================================
+   Leaders Tribe — Excel for Data Analysis for Women
+   Custom GitHub Pages Styles
+   ================================================ */
+
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Lato:wght@400;700&display=swap');
+
+/* ── Brand Colors ── */
+:root {
+  --purple:    #7B2D8B;
+  --orange:    #F4811F;
+  --coral:     #D94F3D;
+  --ivory:     #FAF7F2;
+  --lavender:  #EDE4F5;
+  --plum:      #3D1A52;
+  --text:      #2C2C2C;
+  --grey:      #6B6B6B;
+  --border:    #E0D6EB;
+}
+
+/* ── Base ── */
+body {
+  font-family: 'Lato', Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+  color: var(--text);
+  background-color: var(--ivory);
+}
+
+/* ── Headings ── */
+h1, h2, h3, h4 {
+  font-family: 'Playfair Display', Georgia, serif;
+  color: var(--purple);
+  margin-top: 1.8em;
+  margin-bottom: 0.5em;
+}
+
+h1 { font-size: 2rem; border-bottom: 3px solid var(--orange); padding-bottom: 0.3em; }
+h2 { font-size: 1.5rem; border-bottom: 1px solid var(--border); padding-bottom: 0.2em; }
+h3 { font-size: 1.2rem; color: var(--plum); }
+
+/* ── Links ── */
+a {
+  color: var(--purple);
+  text-decoration: none;
+}
+a:hover {
+  color: var(--orange);
+  text-decoration: underline;
+}
+
+/* ── Navigation / Site Header ── */
+.site-header,
+header[role="banner"] {
+  background: linear-gradient(135deg, var(--plum) 0%, var(--purple) 100%);
+  border-bottom: 3px solid var(--orange);
+  padding: 1rem 2rem;
+}
+
+.site-title,
+.site-header a {
+  color: #ffffff !important;
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 1.2rem;
+}
+
+/* ── Main Content Area ── */
+.main-content,
+main,
+article {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+}
+
+/* ── Tables ── */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5em 0;
+  font-size: 0.95rem;
+}
+
+thead tr {
+  background-color: var(--lavender);
+}
+
+th {
+  color: var(--plum);
+  font-family: 'Playfair Display', Georgia, serif;
+  text-align: left;
+  padding: 10px 14px;
+  border: 1px solid var(--border);
+}
+
+td {
+  padding: 9px 14px;
+  border: 1px solid var(--border);
+  vertical-align: top;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f5f0fa;
+}
+
+/* ── Code Blocks ── */
+code, pre {
+  font-family: 'Courier New', Consolas, monospace;
+  font-size: 0.9rem;
+  background-color: var(--lavender);
+  color: var(--plum);
+  border-radius: 4px;
+}
+
+code {
+  padding: 2px 6px;
+}
+
+pre {
+  padding: 1rem 1.2rem;
+  overflow-x: auto;
+  border-left: 4px solid var(--purple);
+}
+
+/* ── Blockquotes (used as callout panels) ── */
+blockquote {
+  border-left: 4px solid var(--orange);
+  background-color: #fff8f2;
+  margin: 1.5em 0;
+  padding: 0.8em 1.2em;
+  color: var(--text);
+  border-radius: 0 6px 6px 0;
+}
+
+blockquote p {
+  margin: 0;
+}
+
+/* ── Horizontal Rules ── */
+hr {
+  border: none;
+  border-top: 2px solid var(--border);
+  margin: 2.5em 0;
+}
+
+/* ── Footer ── */
+.site-footer,
+footer {
+  background-color: var(--plum);
+  color: #e8d9f5;
+  text-align: center;
+  padding: 1.5rem;
+  font-size: 0.9rem;
+  margin-top: 3rem;
+}
+
+.site-footer a {
+  color: var(--orange);
+}
+
+/* ── Logo in Header ── */
+.site-logo {
+  height: 48px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+/* ── Badges / Tags ── */
+.badge {
+  display: inline-block;
+  background-color: var(--purple);
+  color: white;
+  border-radius: 12px;
+  padding: 2px 10px;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+/* ── Responsive ── */
+@media (max-width: 640px) {
+  .main-content, main, article {
+    padding: 1rem;
+  }
+
+  h1 { font-size: 1.5rem; }
+  h2 { font-size: 1.2rem; }
+
+  table {
+    font-size: 0.85rem;
+  }
+}
