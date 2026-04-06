@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{% if page.title %}{{ page.title }} — {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{{ site.description }}" />
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Lato:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ── Header ── -->
+  <header class="site-header" role="banner">
+    <div class="header-inner">
+      <a href="{{ '/' | relative_url }}" class="site-title">
+        <img src="{{ '/assets/images/leaders-tribe-logo.png' | relative_url }}"
+             alt="Leaders Tribe Logo" class="site-logo" />
+        Excel for Data Analysis for Women
+      </a>
+    </div>
+  </header>
+
+  <!-- ── Navigation ── -->
+  <nav class="site-nav">
+    <a href="{{ '/' | relative_url }}">Home</a>
+    <a href="{{ '/program-overview' | relative_url }}">Program</a>
+    <a href="{{ '/level-1' | relative_url }}">Level 1</a>
+    <a href="{{ '/level-2' | relative_url }}">Level 2</a>
+    <a href="{{ '/train-the-trainer' | relative_url }}">TTT</a>
+    <a href="{{ '/facilitator-resources' | relative_url }}">Facilitators</a>
+    <a href="{{ '/about' | relative_url }}">About</a>
+    <a href="{{ '/contact' | relative_url }}">Contact</a>
+  </nav>
+
+  <!-- ── Main Content ── -->
+  <main class="main-content" role="main">
+    {{ content }}
+  </main>
+
+  <!-- ── Footer ── -->
+  <footer class="site-footer">
+    <p>
+      <img src="{{ '/assets/images/leaders-tribe-logo.png' | relative_url }}"
+           alt="Leaders Tribe" style="height:30px; vertical-align:middle; margin-right:8px;" />
+      <strong>Leaders Tribe</strong> — Excel for Data Analysis for Women
+    </p>
+    <p>
+      📧 <a href="mailto:leaderstribe22@gmail.com">leaderstribe22@gmail.com</a> &nbsp;|&nbsp;
+      🌐 <a href="https://leaderstribe.base44.app/" target="_blank">leaderstribe.base44.app</a> &nbsp;|&nbsp;
+      📍 Lagos, Nigeria
+    </p>
+    <p style="font-size:0.8rem; color:#c8a8d8;">
+      Licensed under <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" style="color:#F4811F;">CC BY-NC 4.0</a>
+      &nbsp;·&nbsp; © {{ 'now' | date: "%Y" }} Leaders Tribe
+    </p>
+  </footer>
+
+</body>
+</html>

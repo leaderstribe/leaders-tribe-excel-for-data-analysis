@@ -1,0 +1,31 @@
+Transaction ID,Salesperson,Gender,Region,State,Product Category,Product Name,Units Sold,Unit Price (NGN),Total Sales (NGN),Month,Customer Type
+TXN-001,Adaeze Okonkwo,Female,South West,Lagos,Cosmetics,Shea Butter Set,12,3500,42000,January,New
+TXN-002,Emeka Chukwu,Male,South East,Anambra,Food Products,Groundnut Oil,30,2000,60000,January,Repeat
+TXN-003,Fatima Suleiman,Female,North West,Kano,Fabric,Ankara Print,20,5000,100000,January,New
+TXN-004,Tunde Oladipo,Male,South West,Osun,Electronics,Phone Charger,15,2500,37500,January,Repeat
+TXN-005,Ngozi Eze,Female,South East,Enugu,Food Products,Palm Oil,25,2200,55000,January,New
+TXN-006,Hauwa Musa,Female,North West,Kaduna,Cosmetics,Black Soap,18,1500,27000,February,Repeat
+TXN-007,Chidinma Nwosu,Female,South East,Imo,Fabric,Lace Material,8,12000,96000,February,New
+TXN-008,Rukayat Bello,Female,South West,Oyo,Food Products,Tomato Paste,40,800,32000,February,Repeat
+TXN-009,Blessing Ihejirika,Female,South South,Rivers,Electronics,Extension Box,10,3000,30000,February,New
+TXN-010,Yusuf Ibrahim,Male,North West,Kano,Cosmetics,Hair Relaxer,22,2800,61600,February,Repeat
+TXN-011,Adaeze Okonkwo,Female,South West,Lagos,Fabric,Ankara Print,15,5000,75000,March,Repeat
+TXN-012,Ebele Okeke,Female,South East,Abia,Food Products,Vegetable Oil,28,2100,58800,March,New
+TXN-013,Musa Haruna,Male,North East,Bauchi,Electronics,Torch Light,20,1200,24000,March,Repeat
+TXN-014,Ifeoma Obiora,Female,South East,Anambra,Cosmetics,Body Lotion,35,1800,63000,March,New
+TXN-015,Zainab Ibrahim,Female,North West,Kano,Fabric,Chiffon Material,10,8000,80000,March,Repeat
+TXN-016,Aisha Yusuf,Female,North West,Kaduna,Food Products,Groundnut Oil,22,2000,44000,April,New
+TXN-017,Kemi Adekunle,Female,South West,Ogun,Cosmetics,Face Cream,30,2200,66000,April,Repeat
+TXN-018,Chidi Nwosu,Male,South East,Imo,Electronics,Phone Charger,12,2500,30000,April,New
+TXN-019,Halima Danjuma,Female,North East,Bauchi,Fabric,Plain Cotton,14,4000,56000,April,Repeat
+TXN-020,Modupe Adewale,Female,South West,Ogun,Cosmetics,Shea Butter Set,25,3500,87500,April,New
+TXN-021,Ngozi Eze,Female,South East,Enugu,Food Products,Palm Oil,18,2200,39600,May,Repeat
+TXN-022,Emeka Chukwu,Male,South East,Anambra,Electronics,Extension Box,8,3000,24000,May,New
+TXN-023,Fatima Suleiman,Female,North West,Kano,Fabric,Ankara Print,22,5000,110000,May,Repeat
+TXN-024,Rukayat Bello,Female,South West,Oyo,Cosmetics,Black Soap,40,1500,60000,May,New
+TXN-025,Hauwa Musa,Female,North West,Kaduna,Food Products,Vegetable Oil,32,2100,67200,May,Repeat
+TXN-026,Blessing Ihejirika,Female,South South,Rivers,Fabric,Lace Material,6,12000,72000,June,New
+TXN-027,Tunde Oladipo,Male,South West,Osun,Cosmetics,Hair Relaxer,18,2800,50400,June,Repeat
+TXN-028,Adaeze Okonkwo,Female,South West,Lagos,Food Products,Tomato Paste,50,800,40000,June,New
+TXN-029,Ifeoma Obiora,Female,South East,Anambra,Electronics,Torch Light,15,1200,18000,June,Repeat
+TXN-030,Zainab Ibrahim,Female,North West,Kano,Cosmetics,Body Lotion,28,1800,50400,June,New

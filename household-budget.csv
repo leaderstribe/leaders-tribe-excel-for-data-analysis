@@ -1,0 +1,16 @@
+Month,Category,Item,Budgeted Amount (NGN),Actual Amount (NGN),Difference (NGN)
+January,Food,Market groceries,30000,32500,-2500
+January,Food,Cooking gas,8000,8000,0
+January,Utilities,Electricity (NEPA recharge),15000,18000,-3000
+January,Utilities,Water,3000,3000,0
+January,Transport,Bus/Keke fare,12000,13500,-1500
+January,Education,School fees contribution,20000,20000,0
+January,Education,School supplies,5000,6200,-1200
+January,Health,Medications / pharmacy,4000,2500,1500
+January,Savings,Ajo / cooperative contribution,10000,10000,0
+January,Personal,Airtime & data,5000,5500,-500
+January,Personal,Clothing / personal care,8000,6000,2000
+January,Household,Cleaning supplies,3500,3500,0
+January,Household,Generator fuel,9000,11000,-2000
+January,Entertainment,Church / social events,5000,4000,1000
+January,Miscellaneous,Unexpected expenses,3000,7500,-4500
