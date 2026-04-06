@@ -4,7 +4,7 @@ title: Home
 ---
 
 <p align="center">
-  <img src="assets/images/leaders-tribe-logo.png" alt="Leaders Tribe Logo" width="160"/>
+  <img src="leaders-tribe-logo.png" alt="Leaders Tribe Logo" width="160"/>
 </p>
 
 # Excel for Data Analysis for Women
